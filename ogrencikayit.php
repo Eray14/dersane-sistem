@@ -14,7 +14,7 @@ $ogrencino=$_POST['ogrencino'];
 $veliadi=$_POST['veliadi'];
 $odeme=$_POST['odeme'];
 $ucret=$_POST['ucret'];
-$ret=mysqli_query($con,"insert into ogrenciler(ogrenciAdi,ogrenciNo,veliadi,odeme,ucret,kalan) values('$ogrenciadi','$ogrencino','$veliadi','$odeme','$ucret','$ucret')");
+$ret=mysqli_query($con,"insert into ogrenciler(ogrenciAdi,ogrenciNo,veliadi,odeme,ucret) values('$ogrenciadi','$ogrencino','$veliadi','$odeme','$ucret')");
 
 
 
